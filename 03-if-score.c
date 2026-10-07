@@ -6,12 +6,6 @@ int main(void)
     int score = 75;
     int point;
 
-    if (score >= 60) {
-        point = 10;
-    } else {
-        point = 0;
-    }
-
-    printf("%d\n", point);
+    printf("%s\n",(score>=60)?"合格":"不合格");
     return 0;
 }
